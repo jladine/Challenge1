@@ -8,7 +8,7 @@
 
 body {
   background-image: url(images/bg.jpg);
-  font-family: Josefin sans;
+  font-family: 'Bitter', serif;
   font-size: 14px;
   color: #7a7a7a;
 }
@@ -38,8 +38,12 @@ main {
 .nav1 ul li a {
   color: white;
   text-decoration: none;
+  font-family: Josefin sans;
 }
 
+.nav1 ul li a:focus {
+  color: #cfa205;
+}
 
 header {
   height: 320px;
@@ -52,6 +56,7 @@ header h1 {
   color: #cfa205;
   font-size: 133px;
   font-weight: 400;
+  font-family: Josefin sans;
 }
 
 header h3 {
@@ -60,7 +65,17 @@ header h3 {
   margin-top: 70px;
 }
 
+header h3 .fa-circle {
+  font-size: 7px;
+  color: #cfa205;
+  vertical-align: top;
+  margin-top: 7px;
+}
 
+span {
+  font-size: 15px;
+
+}
 .nav2 {
   height: 60px;
   background-color: #e8e8e8;
@@ -72,9 +87,13 @@ header h3 {
 
 .nav2 ul li {
   display: inline-block;
+  margin-top: 13px;
 
 }
 
+i {
+  color: #9E9E9E;
+}
 
 #section1 {
   width: 900px;
@@ -92,13 +111,23 @@ header h3 {
 
 #section2 {
   width: 900px;
-  height: 675px;
+  height: 520px;
   margin: auto;
   margin-top: 40px;
 }
 
 article {
   display: inline-block;
-  margin-left: 25px;
-  width: 260px;
+  width: 29%;
+}
+
+#article_2 {
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.second_titre {
+  color: black;
+  font-size: 18px;
+  margin: 30px 0px 30px 0px;
 }
