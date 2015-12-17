@@ -11,6 +11,8 @@ body {
   font-family: 'Bitter', serif;
   font-size: 14px;
   color: #7a7a7a;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 main {
@@ -72,6 +74,10 @@ header h3 .fa-circle {
   margin-top: 7px;
 }
 
+.fa-lg {
+  font-size: 14px;
+}
+
 span {
   font-size: 15px;
 
@@ -92,7 +98,7 @@ span {
 }
 
 i {
-  color: #9E9E9E;
+  color: #7a7a7a;
 }
 
 #section1 {
@@ -101,7 +107,7 @@ i {
   margin: auto;
   text-align: center;
   margin-top: 40px;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 2px solid #e8e8e8;
 }
 
 .bold {
